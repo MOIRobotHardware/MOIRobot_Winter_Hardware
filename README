@@ -1,0 +1,64 @@
+这是MOI(魔一)机器人项目的硬件程序 这个项目是STM32的一个工作空间
+
+这个项目主目录是 :https://github.com/MOIRobotHardware/MOIRobot_Winter_Hardware
+
+1,如何拷贝本项目到本地
+	git clone https://github.com/MOIRobotHardware/MOIRobot_Winter_Hardware.git
+	或者
+	使用SSH (针对本项目成员) 需要添加密钥到你的profile
+	git clone git@github.com:MOIRobotHardware/MOIRobot_Winter_Hardware.git
+	
+2,如何添加 ssh 密钥
+	$ssh-keygen -t rsa -C "your_email@example.com"
+	then
+	$cd ~/.ssh
+	$ls
+	找到id_rad.pub 复制其中的内容到你的账户上的ssh密钥区域
+
+3,使用git 创建与合并分支
+	5.1, 首先git pull 远程master 分支到本地
+		git pull master origin/master 跟新远程最新的master分支到本地
+	5.2, 创建本地分支 
+		git branch dev 创建分支
+		git checkout dev 切换到dev 分支 进行代码更改
+	5.3, 合并本地分支到本地主分支
+		git checkout master 切换到master
+		git pull master origin/master 跟新远程最新的master分支到本地
+		git merge dev  将dev分支合并到master分支
+		git push origin master 将本地master分支推送到远程master
+
+	
+This is a project for MOI robot! And this is an STM32 workspace!
+
+The homepage is        :https://github.com/MOIRobotHardware/MOIRobot_Winter_Hardware
+
+1,how to copy this project to local computer?
+	git clone https://github.com/MOIRobotHardware/MOIRobot_Winter_Hardware.git
+	OR
+	Use SSH but this is only for robot members
+	git clone git@github.com:MOIRobotHardware/MOIRobot_Winter_Hardware.git
+	
+2,how to add ssh secret keys?
+	$ssh-keygen -t rsa -C "your_email@example.com"
+	then
+	$cd ~/.ssh
+	$ls
+	find the id_rsa.pub file copy the context to the github accout profile 
+
+3,how to use git to make a new branch and merge branch
+	5.1, first pull the newest project to your computer
+		$git pull master origin/master
+	5.2, make a new branch
+		create a new branch
+		$git branch dev 
+		change your git to this branch
+		$git checkout dev 
+	5.3, how to merge branch to master 
+		$git checkout master 
+		$git pull master origin/master 
+		$git merge dev  
+		$git push origin master 
+
+
+
+
