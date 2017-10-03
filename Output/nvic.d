@@ -1,0 +1,13 @@
+..\Output\nvic.o: nvic.c
+..\Output\nvic.o: nvic.h
+..\Output\nvic.o: ..\CMSIS\stm32f10x.h
+..\Output\nvic.o: ..\CMSIS\core_cm3.h
+..\Output\nvic.o: d:\Keil\ARM\RV31\INC\stdint.h
+..\Output\nvic.o: ..\CMSIS\system_stm32f10x.h
+..\Output\nvic.o: ..\USER\stm32f10x_conf.h
+..\Output\nvic.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\Output\nvic.o: ..\CMSIS\stm32f10x.h
+..\Output\nvic.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\Output\nvic.o: ..\FWlib\inc\stm32f10x_tim.h
+..\Output\nvic.o: ..\FWlib\inc\stm32f10x_usart.h
+..\Output\nvic.o: ..\FWlib\inc\misc.h

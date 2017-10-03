@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\STM32\louyu_robot\USER\louyu.uvproj
+Project File Date:  10/02/2017
+
+<h2>Output:</h2>
+compiling main.c...
+main.c(30): warning:  #177-D: variable "angle" was declared but never referenced
+main.c:         float angle;
+main.c:               ^
+main.c: main.c: 1 warning, 0 errors
+main.c - 0 Error(s), 1 Warning(s).
